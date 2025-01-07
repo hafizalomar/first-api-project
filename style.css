@@ -1,0 +1,45 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    gap: 10px;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    width: 20%;
+    background: #f1f1f1;
+}
+
+.search button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+
+.search button:hover {
+    background: #50a5eb;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
